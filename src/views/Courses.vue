@@ -12,9 +12,7 @@
           <tr class="item" v-for="course in courses" :key="course.id">
             <td>{{ course.code }} </td>
             <td>{{ course.title }} </td>
-
-            <td> {{ course.semester }}</td>
-
+            <td><a :href="'/semesters/' + course.semester"> {{ course.semester }} </a></td>
             <td>{{ course.credits }} </td>
             <td v-if="course.description  === ''">No course description is provided</td>
             <td v-else>{{ course.description}}</td>
