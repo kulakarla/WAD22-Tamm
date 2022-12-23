@@ -48,5 +48,18 @@ export default {
 </script>
 
 <style scoped>
+th {
+  background: rgb(100, 151, 122);
+}
+
+td {
+  background: rgb(186, 228, 204);
+}
+th, td {
+  font-size: 15px;
+  margin-bottom: 5px;
+  padding: 8px 10px;
+}
+
 
 </style>
