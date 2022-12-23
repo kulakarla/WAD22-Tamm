@@ -67,5 +67,15 @@ th, td {
   padding: 8px 10px;
 }
 
+a{
+  font-size: 15px;
+  color: black;
+  font-family: Helvetica;
+
+}
+
+a:visited{
+  color: black;
+}
 
 </style>
