@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Courses from "../views/Courses.vue";
 import AboutView from "../views/AboutView.vue";
+import Semester from "@/views/Semester";
 
 const routes = [{
         path: '/',
@@ -16,6 +17,11 @@ const routes = [{
         path: "/:catchAll(.*)",
         name: "courses",
         component: Courses,
+    },
+    {
+        path: "/semesters/:semname",
+        name: "Semester",
+        component: Semester,
     }
 ]
 
