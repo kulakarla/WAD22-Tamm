@@ -20,8 +20,9 @@
         <td v-else>{{ course.description}}</td>
       </tr>
 
-
     </table>
+
+    <a :href="'/courses'">Back to courses</a>
   </div>
 </template>
 
